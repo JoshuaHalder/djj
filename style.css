@@ -13,9 +13,35 @@ body{
     background-size: cover;
 }
 
-#canvas{
-background-color: black;
-border: 5px solid white;
-border-radius: 20px;
-box-shadow: 5px 5px 5px black;
+.div_speed{
+    float: left;
+}
+
+.div_speed_img{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#speed{
+    font-size: 23px;
+    margin: 15px;
+}
+
+.div_volume{
+    float: right;
+}
+
+#volume{
+    font-size: 23px;
+    margin: 15px;
+}
+
+.play_button{
+    font-size: 23px;
+   width: 20%;
+}
+
+canvas{
+  border: 5px solid white;
+  border-radius: 30px;
 }
